@@ -28,7 +28,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'easycommerce.urls'
+ROOT_URLCONF = 'easyshop.urls'
 
 TEMPLATES = [
     {
@@ -46,7 +46,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'easycommerce.wsgi.application'
+WSGI_APPLICATION = 'easyshop.wsgi.application'
 
 DATABASES = {
     'default': {
